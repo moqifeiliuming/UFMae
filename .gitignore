@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+<<<<<<< HEAD
+=======
+*.patch
+save_model/
+
+>>>>>>> origin/master
 # C extensions
 *.so
 
@@ -23,6 +29,11 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+<<<<<<< HEAD
+=======
+/package
+/temp
+>>>>>>> origin/master
 MANIFEST
 
 # PyInstaller
@@ -64,8 +75,12 @@ instance/
 .scrapy
 
 # Sphinx documentation
+<<<<<<< HEAD
 docs/en/_build/
 docs/zh_cn/_build/
+=======
+docs/_build/
+>>>>>>> origin/master
 
 # PyBuilder
 target/
@@ -104,16 +119,22 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+<<<<<<< HEAD
 data/
 data
 .vscode
 .idea
 .DS_Store
+=======
+.vscode
+.idea
+>>>>>>> origin/master
 
 # custom
 *.pkl
 *.pkl.json
 *.log.json
+<<<<<<< HEAD
 docs/modelzoo_statistics.md
 mmdet/.mim
 work_dirs/
@@ -125,3 +146,20 @@ work_dirs/
 
 # results
 *.json
+=======
+*.whl
+*.tar.gz
+*.swp
+*.log
+*.tar.gz
+.DS_Store
+replace.sh
+result.png
+
+# Pytorch
+*.pth
+*.pt
+tinynas/configs
+tinynas/tools
+tinynas/modelscope
+>>>>>>> origin/master

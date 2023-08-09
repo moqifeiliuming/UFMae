@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 asynctest
 codecov
 flake8
@@ -12,3 +13,10 @@ pytest
 ubelt
 xdoctest>=0.10.0
 yapf
+=======
+expecttest
+flake8
+isort>=4.3.21
+pre-commit
+yapf==0.30.0 # use fix version to ensure consistent auto-styling
+>>>>>>> origin/master
